@@ -1,0 +1,11 @@
+source 'http://rubygems.org'
+
+gem 'json', '1.5.1'
+gem "rest-client", '1.6.1'
+
+group :test, :development do
+  gem "rspec"
+  gem "bundler"
+  gem "watchr"
+end
+   
